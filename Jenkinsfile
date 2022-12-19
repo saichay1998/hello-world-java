@@ -6,7 +6,8 @@ pipeline {
         withCredentials([file(credentialsId: 'connect123', variable: 'FILE')]) {
       sh 'ssh -i $FILE ubuntu@34.207.85.254'
     }
-        sh '''docker build -t chaitu .
+        sh '''curl ifconfig.me
+        docker build -t chaitu .
         
 '''
       }
