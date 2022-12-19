@@ -11,7 +11,7 @@ pipeline {
 
     stage('Deploying') {
       steps {
-        sh 'docker run --name Chaitu-container -t -p 8089:8080 chaitu '
+        sh 'docker run --name Chaitu-container -d -p 8089:8080 chaitu '
       }
     }
 
