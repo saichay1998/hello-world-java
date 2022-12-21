@@ -3,8 +3,7 @@ pipeline {
   stages {
      stage('Maven build') {
       steps {
-        sh '''git clone https://github.com/saichay1998/hello-world.git
-        cd hello-world
+        sh '''cd hello-world
         mvn clean install
         
 '''
