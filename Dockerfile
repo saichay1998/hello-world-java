@@ -1,5 +1,5 @@
 FROM tomcat
-COPY /root/.m2/repository/com/example/maven-project/webapp/1.0-SNAPSHOT/webapp-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/test.war
+COPY ./test2.war /usr/local/tomcat/webapps/
      
 
 #FROM maven AS build
