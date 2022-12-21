@@ -1,5 +1,5 @@
 FROM tomcat
-COPY ./test.war /usr/local/tomcat/webapps 
+COPY /home/ubuntu/.m2/repository/com/example/maven-project/webapp/1.0-SNAPSHOT/webapp-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/test.war
 
 #FROM maven AS build
 #WORKDIR /app
