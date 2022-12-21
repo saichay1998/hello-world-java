@@ -1,5 +1,5 @@
 FROM tomcat
-COPY ./test.war /usr/local/tomcat/webapps #project-1-for deploying a war file into a docker conmtainer
+COPY ./test.war /usr/local/tomcat/webapps 
 
 #FROM maven AS build
 #WORKDIR /app
