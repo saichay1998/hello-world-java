@@ -4,6 +4,7 @@ pipeline {
      stage('Maven build') {
       steps {
         sh '''cd hello-world
+        whoami
         mvn clean install
         
 '''
