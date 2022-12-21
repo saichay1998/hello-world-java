@@ -6,7 +6,7 @@ pipeline {
         sh '''cd hello-world
         whoami
         mvn clean install
-        cp /root/.m2/repository/com/example/maven-project/webapp/1.0-SNAPSHOT/webapp-1.0-SNAPSHOT.war /var/jenkins/workspace/test2/test.war
+        cp /root/.m2/repository/com/example/maven-project/webapp/1.0-SNAPSHOT/webapp-1.0-SNAPSHOT.war /var/jenkins/workspace/test2/test2.war
         
 '''
       }
