@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('building image') {
       steps {
-        sh '''docker build -t chaitu .
+        sh '''pwd
+              ls -ltr
+        docker build -t chaitu .
         
 '''
       }
